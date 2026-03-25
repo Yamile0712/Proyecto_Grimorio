@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'titulo';
+    font-family: 'Remingtoned_Type';
     src: (url('../style/Remingtoned_Type.ttf'));
 }
 
 @font-face {
-    font-family: 'texto';
+    font-family: 'Roman_New_Times';
     src: (url('../style/Roman_New_Times.otf'));
 }

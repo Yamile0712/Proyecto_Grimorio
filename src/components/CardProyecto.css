@@ -1,0 +1,13 @@
+.card-proyecto {
+    width: 18rem;
+    border: 2px solid #00ff99 !important;
+    background-color: #08310f3f !important;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+    margin: 12px;
+}
+
+.card-proyecto .card-title,
+.card-proyecto .card-text {
+    color: white;
+}

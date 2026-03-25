@@ -14,10 +14,10 @@ export const Grimorio = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
             }}>
-                <h1 style={{ color: ' #16a34a', fontFamily: 'titulo' }}>GRIMORIO</h1>
+                <h1 style={{ color: ' #16a34a', fontSize: '5rem'  }}>GRIMORIO</h1>
                 <br />
-                <h4 style={{ color: 'white', fontFamily: 'texto' }}>El Horror en el Museo de H.P. Lovecraft</h4>
-                <p style={{ color: 'white', fontFamily: 'texto' }}>Un cómic interactivo donde tus decisiones determinan tu destino.
+                <h4 style={{ color: 'white', fontFamily: 'Roman_New_Times', fontSize: '2rem' }}>El Horror en el Museo de H.P. Lovecraft</h4>
+                <p style={{ color: 'white', fontFamily: 'Roman_New_Times', fontSize: '1.5rem' }}>Un cómic interactivo donde tus decisiones determinan tu destino.
                     Explora los pasillos del <br /> museo maldito y enfrenta los horrores que
                     acechan en la oscuridad.</p>
 

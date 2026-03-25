@@ -6,6 +6,7 @@ import { Grimorio} from "./pages/Grimorio";
 import { Proyecto} from "./pages/Proyecto";
 import { Inspiracion} from "./pages/Inspiracion";
 import { Nosotras} from "./pages/Nosotras";
+import { Personajes} from "./pages/Personajes";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Proyecto/>
       <Inspiracion />
       <Nosotras />
+      <Personajes />
 
     </>
   );
