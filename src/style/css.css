@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'titulo';
+    src: (url('../style/Remingtoned_Type.ttf'));
+}
+
+@font-face {
+    font-family: 'texto';
+    src: (url('../style/Roman_New_Times.otf'));
+}

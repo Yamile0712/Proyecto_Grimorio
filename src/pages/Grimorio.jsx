@@ -1,4 +1,5 @@
 import React from "react";
+import '../style/css.css';
 
 export const Grimorio = () => {
     return (
@@ -11,12 +12,12 @@ export const Grimorio = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
-                alignItems: 'center'
+                alignItems: 'center',
             }}>
-                <h1 style={{ color: ' #16a34a' }}>GRIMORIO</h1>
+                <h1 style={{ color: ' #16a34a', fontFamily: 'titulo' }}>GRIMORIO</h1>
                 <br />
-                <h4 style={{ color: 'white' }}>El Horror en el Museo de H.P. Lovecraft</h4>
-                <p style={{ color: 'white' }}>Un cómic interactivo donde tus decisiones determinan tu destino.
+                <h4 style={{ color: 'white', fontFamily: 'texto' }}>El Horror en el Museo de H.P. Lovecraft</h4>
+                <p style={{ color: 'white', fontFamily: 'texto' }}>Un cómic interactivo donde tus decisiones determinan tu destino.
                     Explora los pasillos del <br /> museo maldito y enfrenta los horrores que
                     acechan en la oscuridad.</p>
 

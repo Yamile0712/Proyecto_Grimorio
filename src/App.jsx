@@ -10,7 +10,8 @@ import { Nosotras} from "./pages/Nosotras";
 const App = () => {
   return (
     <>
-      <Header />
+     
+     <Header />
       <Grimorio />
       <Proyecto/>
       <Inspiracion />

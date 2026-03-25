@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../components/Card";
+import { CardProyecto} from "../components/CardProyecto";
 
 export const Proyecto = ({ titulo = "NUESTRO PROYECTO", descripcion = "Crear una experiencia narrativa inmersiva que acerque a los lectores al universo de H.P. Lovecraft a través de un cómic interactivo donde cada decisión importa." }) => {
     return (
@@ -9,14 +9,14 @@ export const Proyecto = ({ titulo = "NUESTRO PROYECTO", descripcion = "Crear una
             <br />
 
             <div className="d-flex justify-content-center gap-3 flex-wrap">
-                <Card titulo="Propósito" descripcion={descripcion} />
+                <CardProyecto titulo="Propósito" descripcion={descripcion} />
 
-                <Card titulo="Misión" descripcion="Desarrollar un cómic interactivo de
+                <CardProyecto titulo="Misión" descripcion="Desarrollar un cómic interactivo de
                  horror cósmico que combine arte visual, narrativa envolvente y 
                  tecnología, ofreciendo una experiencia única e inolvidable en el museo
                   de Lovecraft." />
 
-                <Card titulo="Visión" descripcion="Ser un referente en la creación de 
+                <CardProyecto titulo="Visión" descripcion="Ser un referente en la creación de 
                 cómics interactivos de terror, innovando en la forma de contar historias 
                 y conectando a nuevas generaciones con el legado del horror lovecraftiano." />
             </div>
