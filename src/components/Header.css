@@ -1,0 +1,63 @@
+/* Fondo general */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #020a06;
+  border-bottom: 1px solid rgba(0, 255, 150, 0.2);
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  color: #00ff99;
+  font-size: 18px;
+}
+
+.logo-text {
+  color: #00ff99;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #00ff99;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-item {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+/* Hover */
+.nav-item:hover {
+  color: #00ff99;
+}
+
+/* BOTÓN ACTIVO (Inicio) */
+.nav-item.active {
+  background: #16a34a;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+
+/* Juego */
+.nav-item.game {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
