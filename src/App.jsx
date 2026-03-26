@@ -7,6 +7,7 @@ import { Proyecto} from "./pages/Proyecto";
 import { Inspiracion} from "./pages/Inspiracion";
 import { Nosotras} from "./pages/Nosotras";
 import { Personajes} from "./pages/Personajes";
+import { Capitulos } from "./pages/Capitulos";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Inspiracion />
       <Nosotras />
       <Personajes />
+      <Capitulos />
 
     </>
   );
