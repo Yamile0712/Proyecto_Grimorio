@@ -2,7 +2,7 @@
 import React from "react";
 
 // 1. COMPONENTE DE LA TARJETA (Hijo)
-const CardEquipo = ({ nombre, rol, detalle }) => {
+const CardEquipo = ({ nombre, rol, detalle, }) => {
     return (
         <div className="flip-card" style={containerStyle}>
             <div className="flip-card-inner" style={innerStyle}>
