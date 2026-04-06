@@ -8,7 +8,12 @@ export const CardsPersonajes = ({ titulo, descripcion }) => {
 
                 {/* PARTE FRONTAL (Escudo y Nombre) */}
                 <div style={{ ...faceStyle, ...frontStyle,  }}>
-                    <div style={{ ...iconStyle,  }}>🛡️</div>
+
+                    <div style={{ ...iconStyle, }}>
+                        <img src="imagenx.jpg" alt="" style={{ width:"100%", height:"100%", objectFit:"cover"}} />
+                    </div>
+
+
                     <h2 style={{ color: 'white', margin: 0 }}>{titulo}</h2>
                 </div>
 
@@ -74,7 +79,8 @@ const backStyle = {
 };
 
 const iconStyle = {
-    fontSize: '50px',
+    width: '150px',
+    height: '150px',
     marginBottom: '20px',
     filter: 'drop-shadow(0 0 5px #00ff99)'
 

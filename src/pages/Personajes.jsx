@@ -10,7 +10,8 @@ export const Personajes = ({ titulo = "PERSONAJES", descripcion }) => {
             <br />
             <div className="d-flex justify-content-center gap-3 flex-wrap">
 
-                <CardsPersonajes titulo="George Rogers" 
+                <CardsPersonajes 
+                titulo="George Rogers" 
                 descripcion="El macabro responsable de los rituales oscuros que despertaron fuerzas más 
                 allá de la comprensión humana. Su obsesión por lo prohibido desató el horror en el museo." />
 

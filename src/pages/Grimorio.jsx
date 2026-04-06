@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import '../style/css.css';
 
 export const Grimorio = () => {
+    const [showVideo, setShowVideo] = useState(false);
+
     return (
         <>
             <div className="text-center" style={{
@@ -26,16 +28,41 @@ export const Grimorio = () => {
                     <button type="button" className="btn btn-primary btn-lg" style={{
                         backgroundColor: '#16a34a',
                         borderColor: '#16a34a'
-                    }} disabled>COMENZAR AVENTURA</button>
+                    }} onClick={() => document.getElementById('capitulos').scrollIntoView({ behavior: 'smooth' })}>COMENZAR AVENTURA</button>
 
                     <button type="button" className="btn btn-primary btn-lg" style={{
                         backgroundColor:
                             '#16a34a', borderColor: '#16a34a'
-                    }} disabled>VER AVANCE
+                    }} onClick={() => setShowVideo(true)}>VER AVANCE
                     </button>
 
                 </div>
             </div>
+
+            {/* Modal para el video */}
+            {showVideo && (
+                <div className="modal fade show d-block" tabIndex="-1" style={{ backgroundColor: 'rgba(0,0,0,0.8)' }}>
+                    <div className="modal-dialog modal-lg">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title">Avance del Cómic</h5>
+                                <button type="button" className="btn-close" onClick={() => setShowVideo(false)}></button>
+                            </div>
+                            <div className="modal-body">
+                                <iframe
+                                    width="100%"
+                                    height="400"
+                                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"  // Placeholder: reemplaza con la URL real del video
+                                    title="Avance"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
 
         </>
     );
