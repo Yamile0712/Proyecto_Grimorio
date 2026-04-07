@@ -6,7 +6,7 @@ export const Grimorio = () => {
 
     return (
         <>
-            <div className="text-center" style={{
+            <div id="inicio" className="text-center" style={{
                 background: 'linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.42)), url("fondo.png")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',

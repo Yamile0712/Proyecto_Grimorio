@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export const Header = () => {
@@ -10,12 +11,12 @@ export const Header = () => {
       </div>
 
       <nav className="nav">
-        <a href="#" className="nav-item " style={{fontFamily:'parrafos'}}>Inicio</a>
-        <a href="#" className="nav-item" style={{fontFamily:'parrafos'}}>Proyecto</a>
-        <a href="#" className="nav-item" style={{fontFamily:'parrafos'}}>Equipo</a>
-        <a href="#" className="nav-item" style={{fontFamily:'parrafos'}}>Personajes</a>
-        <a href="#" className="nav-item" style={{fontFamily:'parrafos'}}>Capítulos</a>
-        <a href="#" className="nav-item game" style={{fontFamily:'parrafos'}}>🎮 Juego</a>
+        <Link to="/" className="nav-item" style={{fontFamily:'parrafos'}}>Inicio</Link>
+        <Link to="/proyecto" className="nav-item" style={{fontFamily:'parrafos'}}>Proyecto</Link>
+        <Link to="/equipo" className="nav-item" style={{fontFamily:'parrafos'}}>Equipo</Link>
+        <Link to="/personajes" className="nav-item" style={{fontFamily:'parrafos'}}>Personajes</Link>
+        <Link to="/capitulos" className="nav-item" style={{fontFamily:'parrafos'}}>Capítulos</Link>
+        <Link to="/juego" className="nav-item game" style={{fontFamily:'parrafos'}}>🎮 Juego</Link>
       </nav>
     </header>
   );

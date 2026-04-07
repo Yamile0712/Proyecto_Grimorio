@@ -4,7 +4,7 @@ import { CardsPersonajes } from "../components/CardsPersonajes";
 export const Personajes = ({ titulo = "PERSONAJES", descripcion }) => {
 
     return (
-        <div style={{ backgroundColor: '#111111', padding: '20px' }}>
+        <div id="personajes" style={{ backgroundColor: '#111111', padding: '20px' }}>
         <br />  
             <h1 className="text-center" style={{ color: '#16a34a', fontFamily: 'titulo', marginBottom: '20px' }}>{titulo}</h1>
             <br />

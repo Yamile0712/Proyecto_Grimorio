@@ -1,0 +1,12 @@
+.hover-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 14px 30px rgba(0, 255, 153, 0.22);
+}
+
+.hover-card:active {
+    transform: translateY(-3px) scale(1.005);
+}

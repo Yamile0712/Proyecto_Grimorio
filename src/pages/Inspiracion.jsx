@@ -3,7 +3,7 @@ import { CardsInspiracion } from "../components/CardsInspiracion";
 
 export const Inspiracion = ({ titulo = "NUESTRA INSPIRACIÓN", descripcion }) => {
     return (
-        <div style={{ backgroundColor: '#111111', padding: '20px', fontFamily: 'titulo', minHeight: '100vh' }}>
+        <div id="inspiracion" style={{ backgroundColor: '#111111', padding: '20px', fontFamily: 'titulo', minHeight: '100vh' }}>
         <br />
             <h1 className="text-center mt-5" style={{ color: '#16a34a', marginBottom: '20px' }}>{titulo}</h1>
             <br />

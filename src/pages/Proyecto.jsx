@@ -4,7 +4,7 @@ import { CardProyecto} from "../components/CardProyecto";
 
 export const Proyecto = ({ titulo = "NUESTRO PROYECTO", descripcion = "Crear una experiencia narrativa inmersiva que acerque a los lectores al universo de H.P. Lovecraft a través de un cómic interactivo donde cada decisión importa." }) => {
     return (
-        <div style={{ backgroundColor: '#111111', padding: '20px', fontFamily: 'titulo', minHeight: '100vh' }}>
+        <div id="proyecto" style={{ backgroundColor: '#111111', padding: '20px', fontFamily: 'titulo', minHeight: '100vh' }}>
         <br />
             <h1 className="text-center mt-5" style={{ color: '#16a34a', marginBottom: '20px' }}>{titulo}</h1>
             <br />

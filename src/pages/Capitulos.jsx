@@ -58,7 +58,7 @@ export const Capitulos = ({ titulo = "VISTA PREVIA DE CAPITULOS" }) => {
 
     return (
         <div id="capitulos" style={{ backgroundColor: '#111111', padding: '50px 20px', minHeight: '100vh', textAlign: 'center' }}>
-            <h1 style={{ color: '#16a34a', marginBottom: '40px' }}>{titulo}</h1>
+            <h1 style={{ color: '#16a34a', marginBottom: '40px', fontFamily: 'titulo' }}>{titulo}</h1>
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', alignItems: 'flex-start' }}>
                 {chapters.map((chapter, index) => (

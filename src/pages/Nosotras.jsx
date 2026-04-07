@@ -32,10 +32,10 @@ const CardEquipo = ({ nombre, rol, detalle, }) => {
 // 2. SECCIÓN PRINCIPAL (Padre)
 export const Nosotras = ({ titulo = "NUESTRO EQUIPO" }) => {
     return (
-        <div style={{ backgroundColor: '#111111', padding: '50px 20px', minHeight: '100vh', textAlign: 'center' }}>
+        <div id="equipo" style={{ backgroundColor: '#111111', padding: '50px 20px', minHeight: '100vh', textAlign: 'center' }}>
             <h1 style={{ color: '#16a34a', marginBottom: '20px', fontFamily: 'titulo' }}>{titulo}</h1>
 
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', alignItems: 'stretch' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', alignItems: 'stretch', marginTop: '150px' }}>
                 <CardEquipo
                     nombre="Karol Usuga"
                     rol="Líder en documentación - Ilustradora"
