@@ -8,8 +8,8 @@ export const CardsNosotras = ({ titulo, descripcion }) => {
                 <img src="..." alt="..."/>
                     <div  style={{ display: 'flex', flexDirection: 'column' }}>
                         
-                        <h5 style={{ color: 'white' }}>{titulo}</h5>
-                        <p  style={{ color: 'white' }}>{descripcion}</p>
+                        <h5 style={{ color: 'white', fontFamily: 'titulo' }}>{titulo}</h5>
+                        <p  style={{ color: 'white', fontFamily: 'parrafos' }}>{descripcion}</p>
 
                     </div>
             </div>

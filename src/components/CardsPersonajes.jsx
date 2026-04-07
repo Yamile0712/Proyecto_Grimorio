@@ -19,8 +19,8 @@ export const CardsPersonajes = ({ titulo, descripcion }) => {
 
                 {/* PARTE TRASERA (Descripción) */}
                 <div style={{ ...faceStyle, ...backStyle }}>
-                    <h3 style={{ color:  '#16a34a', marginBottom: '10px' }}>Historia</h3>
-                    <p style={{ fontSize: '0.95rem', lineHeight: '1.4' }}>{descripcion}</p>
+                    <h3 style={{ color:  '#16a34a', marginBottom: '15px', fontFamily: 'titulo' }}>HISTORIA</h3>
+                    <p style={{ fontSize: '0.95rem', lineHeight: '1.4', fontFamily: 'parrafos' }}>{descripcion}</p>
                 </div>
 
             </div>
@@ -38,8 +38,8 @@ export const CardsPersonajes = ({ titulo, descripcion }) => {
 // --- ESTILOS EN OBJETOS (Más fácil de leer) ---
 
 const containerStyle = {
-    width: '220px',
-    height: '300px',
+    width: '280px',
+    height: '360px',
     perspective: '1000px',
     margin: '15px'
 };
@@ -79,8 +79,8 @@ const backStyle = {
 };
 
 const iconStyle = {
-    width: '150px',
-    height: '150px',
+    width: '180px',
+    height: '180px',
     marginBottom: '20px',
     filter: 'drop-shadow(0 0 5px #00ff99)'
 

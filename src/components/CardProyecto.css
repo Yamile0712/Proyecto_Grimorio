@@ -1,5 +1,6 @@
 .card-proyecto {
     width: 18rem;
+    min-height: 200px;
     border: 2px solid #00ff99 !important;
     background-color: #08310f3f !important;
     color: white;
@@ -7,7 +8,11 @@
     margin: 12px;
 }
 
-.card-proyecto .card-title,
+.card-proyecto .card-title {
+    color: white;
+    margin-bottom: 15px;
+}
+
 .card-proyecto .card-text {
     color: white;
 }

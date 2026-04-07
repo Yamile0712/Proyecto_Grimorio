@@ -15,8 +15,8 @@ const CardEquipo = ({ nombre, rol, detalle, }) => {
 
                 {/* LADO B: Información extra */}
                 <div style={{ ...faceStyle, ...backStyle }}>
-                    <h4 style={{ color: '#16a34a', fontSize: '1.1rem' }}>Sobre mí</h4>
-                    <p style={{ fontSize: '0.85rem', lineHeight: '1.4' }}>{detalle}</p>
+                    <h4 style={{ color: '#16a34a', fontSize: '1.1rem', fontFamily: 'titulo', marginBottom: '15px' }}>SOBRE MÍ</h4>
+                    <p style={{ fontSize: '0.85rem', lineHeight: '1.4', fontFamily: 'parrafos' }}>{detalle}</p>
                 </div>
 
             </div>
@@ -33,9 +33,9 @@ const CardEquipo = ({ nombre, rol, detalle, }) => {
 export const Nosotras = ({ titulo = "NUESTRO EQUIPO" }) => {
     return (
         <div style={{ backgroundColor: '#111111', padding: '50px 20px', minHeight: '100vh', textAlign: 'center' }}>
-            <h1 style={{ color: '#16a34a', marginBottom: '40px' }}>{titulo}</h1>
+            <h1 style={{ color: '#16a34a', marginBottom: '20px', fontFamily: 'titulo' }}>{titulo}</h1>
 
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', alignItems: 'stretch' }}>
                 <CardEquipo
                     nombre="Karol Usuga"
                     rol="Líder en documentación - Ilustradora"

@@ -6,12 +6,13 @@ export const Footer = () => {
         <>
 
             <footer className="footer-grimorio">
-                <div className="footer-content">
-                    <h2 className="footer-title">GRIMORIO</h2>
-                    <p className="footer-subtitle">
+                <div className="footer-content" >
+                    <h2 className="footer-title" style={{fontFamily:'titulo'}}>GRIMORIO</h2>
+                    <br />
+                    <p className="footer-subtitle" style={{fontFamily:'parrafos'}}>
                         Basado en "El Horror en el Museo" de H.P. Lovecraft
                     </p>
-                    <p className="footer-subtitle"> Cómic Interactivo</p>
+                    <p className="footer-subtitle" style={{fontFamily:'parrafos'}} > Cómic Interactivo</p>
                     <a href="https://instagram.com" class="social-icon" target="_blank">
 
                         <svg xmlns="http://www.w3.org/2000/svg"

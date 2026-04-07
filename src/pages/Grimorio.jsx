@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../style/css.css';
+import "../style/css.css";
 
 export const Grimorio = () => {
     const [showVideo, setShowVideo] = useState(false);
@@ -18,8 +18,8 @@ export const Grimorio = () => {
             }}>
                 <h1 style={{ color: ' #16a34a', fontSize: '5rem', fontFamily:"titulo"  }}>GRIMORIO</h1>
                 <br />
-                <h4 style={{ color: 'white',  fontSize: '2rem' }}>El Horror en el Museo de H.P. Lovecraft</h4>
-                <p style={{ color: 'white',  fontSize: '1.5rem' }}>Un cómic interactivo donde tus decisiones determinan tu destino.
+                <h4 style={{ color: 'white',  fontSize: '2rem' , fontFamily:"parrafos"}}>El Horror en el Museo de H.P. Lovecraft</h4>
+                <p style={{ color: 'white',  fontSize: '1.5rem', fontFamily:"parrafos" }}>Un cómic interactivo donde tus decisiones determinan tu destino.
                     Explora los pasillos del <br /> museo maldito y enfrenta los horrores que
                     acechan en la oscuridad.</p>
 
@@ -27,12 +27,12 @@ export const Grimorio = () => {
 
                     <button type="button" className="btn btn-primary btn-lg" style={{
                         backgroundColor: '#16a34a',
-                        borderColor: '#16a34a'
+                        borderColor: '#16a34a', fontFamily: 'titulo'
                     }} onClick={() => document.getElementById('capitulos').scrollIntoView({ behavior: 'smooth' })}>COMENZAR AVENTURA</button>
 
                     <button type="button" className="btn btn-primary btn-lg" style={{
                         backgroundColor:
-                            '#16a34a', borderColor: '#16a34a'
+                            '#16a34a', borderColor: '#16a34a', fontFamily: 'titulo'
                     }} onClick={() => setShowVideo(true)}>VER AVANCE
                     </button>
 
