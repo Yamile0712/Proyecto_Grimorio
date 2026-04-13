@@ -1,5 +1,5 @@
 
-import React from "react";
+import "../style/css.css"
 
 // 1. COMPONENTE DE LA TARJETA (Hijo)
 const CardEquipo = ({ nombre, rol, detalle, }) => {
@@ -9,8 +9,8 @@ const CardEquipo = ({ nombre, rol, detalle, }) => {
 
                 {/* LADO A: Nombre y Rol */}
                 <div style={{ ...faceStyle, ...frontStyle }}>
-                    <h3 style={{ color: '#16a34a', marginBottom: '10px' }}>{nombre}</h3>
-                    <p style={{ fontSize: '0.9rem', color: '#ccc' }}>{rol}</p>
+                    <h3 style={{ color: '#16a34a', marginBottom: '10px', fontFamily: 'titulo' }}>{nombre}</h3>
+                    <p style={{ fontSize: '0.9rem', color: '#ccc', fontFamily: 'parrafos' }}>{rol}</p>
                 </div>
 
                 {/* LADO B: Información extra */}
@@ -37,19 +37,19 @@ export const Nosotras = ({ titulo = "NUESTRO EQUIPO" }) => {
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', alignItems: 'stretch', marginTop: '150px' }}>
                 <CardEquipo
-                    nombre="Karol Usuga"
+                    nombre="KAROL USUGA"
                     rol="Líder en documentación - Ilustradora"
                     detalle="Encargada de la narrativa y el estilo visual gótico del proyecto Grimorio."
                 />
 
                 <CardEquipo
-                    nombre="Sofía Amaya"
+                    nombre="SOFIA AMAYA"
                     rol="Líder en documentación - Ilustradora"
                     detalle="Especialista en el diseño de criaturas y ambientes inspirados en H.P. Lovecraft."
                 />
 
                 <CardEquipo
-                    nombre="Yamile Arias"
+                    nombre="YAMILE ARIAS"
                     rol="Líder en documentación - Ilustradora"
                     detalle="Gestora técnica y creativa encargada de la coherencia documental del equipo."
                 />

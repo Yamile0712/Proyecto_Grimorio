@@ -1,8 +1,8 @@
 .card-proyecto {
     width: 18rem;
     min-height: 200px;
-    border: 2px solid #00ff99 !important;
-    background-color: #08310f3f !important;
+    border: 2px solid #00ff99 ;
+    background-color: #08310f3f ;
     color: white;
     box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
     margin: 12px;
