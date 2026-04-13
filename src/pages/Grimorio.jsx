@@ -54,7 +54,7 @@ export const Grimorio = () => {
                                 <iframe
                                     width="100%"
                                     height="400"
-                                    src="https://youtu.be/Jek5K3xqEFE?si=Df8rthaf7xyWzZpT"  // Placeholder: reemplaza con la URL real del video
+                                    src="https://youtu.be/Jek5K3xqEFE?si=LYoRXiCxlWupZ4MJ"  
                                     title="Avance"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

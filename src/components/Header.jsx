@@ -14,6 +14,7 @@ export const Header = () => {
         <nav className="nav">
           <Link to="/" className="nav-item" style={{ fontFamily: 'parrafos' }}>Inicio</Link>
           <Link to="/proyecto" className="nav-item" style={{ fontFamily: 'parrafos' }}>Proyecto</Link>
+          <Link to="/inspiracion" className="nav-item" style={{ fontFamily: 'parrafos' }}>Inspiración</Link>
           <Link to="/equipo" className="nav-item" style={{ fontFamily: 'parrafos' }}>Equipo</Link>
           <Link to="/personajes" className="nav-item" style={{ fontFamily: 'parrafos' }}>Personajes</Link>
           <Link to="/capitulos" className="nav-item" style={{ fontFamily: 'parrafos' }}>Capítulos</Link>
