@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../style/css.css";
 
 export const Grimorio = () => {
     const [showVideo, setShowVideo] = useState(false);
+    const navigate = useNavigate();
 
     return (
         <>
@@ -28,7 +30,7 @@ export const Grimorio = () => {
                     <button type="button" className="btn btn-primary btn-lg" style={{
                         backgroundColor: '#16a34a',
                         borderColor: '#16a34a', fontFamily: 'titulo'
-                    }} onClick={() => document.getElementById('capitulos').scrollIntoView({ behavior: 'smooth' })}>COMENZAR AVENTURA</button>
+                    }} onClick={() => navigate('/capitulos')}>COMENZAR AVENTURA</button>
 
                     <button type="button" className="btn btn-primary btn-lg" style={{
                         backgroundColor:
@@ -52,7 +54,7 @@ export const Grimorio = () => {
                                 <iframe
                                     width="100%"
                                     height="400"
-                                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"  // Placeholder: reemplaza con la URL real del video
+                                    src="https://youtu.be/Jek5K3xqEFE?si=Df8rthaf7xyWzZpT"  // Placeholder: reemplaza con la URL real del video
                                     title="Avance"
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
